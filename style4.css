@@ -1,0 +1,48 @@
+body
+{
+    background-color: gray;
+}
+h1
+{
+    font-size: 40px;
+    font-style: oblique;
+    font-family: cursive;
+    color: yellow;
+}
+table
+            {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td
+            {
+                text-align: left;
+                padding: 8px;
+            }
+            tr:nth-child(even)
+            {
+                text-align: center;
+                justify-content:right;
+                background-color: cadetblue;
+            }
+            tr:nth-child(odd)
+            {
+                text-align: center;
+                justify-content: right;
+                background-color: white;
+            }
+.topnav
+            {
+                text-align: right;
+                background-color: gray;
+            }
+            .topnav a
+            {
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            footer
+            {
+                text-align: center;
+            }
