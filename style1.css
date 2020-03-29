@@ -1,0 +1,51 @@
+            body
+			{
+				background-color: black;
+			}
+			h1
+			{
+				font-size: 60px;
+				color: lawngreen;
+				text-align: center;
+                animation: move 5s;
+                width: 100%;
+            }
+                @keyframes move{
+				from
+				{
+					margin-left: 0%;
+				width: 300%;
+			}
+			to
+			{
+				margin-left: 0%;
+				width: 100%;
+			}
+            }
+            .topnav
+            {
+                text-align: right;
+            }
+            .topnav a
+            {
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+            }
+			ul
+			{
+				list-style-type: none;
+			}
+			ul li
+			{
+				text-align: center;
+				font: outline;
+				font-size: 30px;
+                font-style: italic;
+                color: white;
+            }
+            footer
+            {
+                text-align: center;
+                color: lawngreen;
+            }
