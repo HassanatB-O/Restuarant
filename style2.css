@@ -1,0 +1,51 @@
+        body
+        {
+            background-color: gray;
+        }
+        h1
+        {
+            color: darksalmon;
+            font-size: 40px;
+            font-style: italic;
+        }
+        label
+        {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .topnav
+            {
+                text-align: right;
+                background-color: darksalmon;
+            }
+            .topnav a
+            {
+                color: white;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            input[type=text],
+        input[type=email]
+         {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid darkgray;
+            box-sizing: border-box;
+        }
+        button
+        {
+            background-color: darkred;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer
+        {
+            text-align: center;
+            color: white;
+        }
